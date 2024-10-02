@@ -3,8 +3,8 @@ package controller
 import (
 	"context"
 	"errors"
-	"metadata.com/internal/reporitory"
-	"metadata.com/model"
+	"github.com/kirillApanasiuk/movie-rating/internal/reporitory"
+	"github.com/kirillApanasiuk/movie-rating/model"
 )
 
 var ErrNotFound = errors.New("rating not found for a record")

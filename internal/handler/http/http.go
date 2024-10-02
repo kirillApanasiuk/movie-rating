@@ -3,9 +3,9 @@ package http
 import (
 	"encoding/json"
 	"errors"
+	"github.com/kirillApanasiuk/movie-rating/internal/controller"
+	"github.com/kirillApanasiuk/movie-rating/model"
 	"log"
-	"metadata.com/internal/controller"
-	"metadata.com/model"
 	"net/http"
 	"strconv"
 )

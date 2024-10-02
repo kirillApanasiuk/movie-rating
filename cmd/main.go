@@ -1,10 +1,10 @@
 package main
 
 import (
+	"github.com/kirillApanasiuk/movie-rating/internal/controller"
+	ratingHttp "github.com/kirillApanasiuk/movie-rating/internal/handler/http"
+	"github.com/kirillApanasiuk/movie-rating/internal/reporitory"
 	"log"
-	"metadata.com/internal/controller"
-	ratingHttp "metadata.com/internal/handler/http"
-	"metadata.com/internal/reporitory"
 	"net/http"
 )
 
